@@ -6,5 +6,5 @@ export default (strings: TemplateStringsArray, ...values: unknown[]): string => 
     parts.push(strings[i + 1]);
   }
 
-  return "/koujisin" + parts.join("");
+  return "/koujishin" + parts.join("");
 }
