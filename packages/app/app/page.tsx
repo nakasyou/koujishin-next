@@ -4,7 +4,7 @@ import publicFile from "../utils/public-file"
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Image src={publicFile("/koujishin.svg")} alt="Logo" />
+      <Image src={publicFile`/koujishin.svg`} alt="Logo" />
     </main>
   )
 }
