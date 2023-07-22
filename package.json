@@ -1,0 +1,23 @@
+{
+  "name": "koujisin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "pnpm -F \"app\"",
+    "dict": "pnpm -F \"dict\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@7.19.0",
+  "engines": {
+    "npm": "Use pnpm",
+    "yarn": "Use pnpm",
+    "pnpm": ">=7.19.0"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.9"
+  }
+}
