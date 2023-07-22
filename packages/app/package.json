@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@koujisin/dict": "workspace:*",
+    "@tabler/icons-react": "^2.28.0",
     "@types/node": "20.4.3",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
