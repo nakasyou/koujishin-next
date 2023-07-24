@@ -8,7 +8,7 @@ export default function Home() {
         <Image
           src={publicFile`/koujishin.svg`}
           alt="Logo"
-          className=""
+          className="text-center mx-auto"
         />
       </div>
       <div className="mx-10">
