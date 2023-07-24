@@ -5,7 +5,7 @@ export default () => {
         <div>
           
         </div>
-        <div className="fixed b-0 l-0">
+        <div className="fixed bottom-0 left-0">
           <select>
             <option value="yoko">ヨコ</option>
             <option value="tate">タテ</option>
