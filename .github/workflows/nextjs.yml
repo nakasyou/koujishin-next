@@ -60,7 +60,9 @@ jobs:
         if: ${{ steps.some_cache_id.outputs.cache-hit != 'true' }}
         run: pnpm install
       - name: Build with Next.js
-        run: pnpm app next build
+        run: |
+          pnpm dict build
+          pnpm app next build
       - name: Static HTML export with Next.js
         run: pnpm app next export
       - name: Upload artifact
